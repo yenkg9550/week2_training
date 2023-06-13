@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+.d-flex {
+  display: flex;
+}
+
+.px-1 {
+  padding: 0 16px;
+}
+
+.px-2 {
+  padding: 0 24px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Bruno Ace SC", sans-serif;
+  background-color: black;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.header {
+  margin: 40px 0 96px 0;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header a {
+  color: #D1D1D1;
+}
+
+.banner {
+  display: flex;
+  margin-bottom: 72px;
+}
+.banner .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 128px;
+  color: #00FFA3;
+  text-align: right;
+}
+.banner h2 {
+  padding-left: 24px;
+  font-size: 64px;
+  color: white;
+}
+.banner a {
+  width: 185px;
+  background-color: white;
+  border-radius: 32px;
+  text-align: center;
+  padding: 12px;
+  display: block;
+  margin-left: auto;
+}
+.banner span {
+  vertical-align: middle;
+}
+
+.introduction {
+  background-image: url(../image/background-img.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 160px 0;
+  color: white;
+}
+.introduction h2 {
+  font-size: 64px;
+  padding-bottom: 36px;
+}
+.introduction p {
+  font-size: 24px;
+  padding-bottom: 32px;
+}
+
+.about {
+  background-color: white;
+  padding: 160px 0;
+}
+.about .card {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 50px;
+  margin-right: 150px;
+}
+.about .card span {
+  padding-bottom: 4px;
+}
+.about .card li {
+  width: calc(50% - 12px);
+  padding: 12px;
+  border: 1px solid rgb(241, 241, 241);
+}
+.about .card h3 {
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+.about .title {
+  width: 526px;
+}
+.about .title h2 {
+  font-size: 64px;
+  padding-bottom: 36px;
+}
+.about .title p {
+  font-size: 24px;
+}
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  padding: 129px 0;
+}
+.contact h2 {
+  font-size: 64px;
+  color: white;
+  padding-right: 28.5px;
+}
+.contact span {
+  font-size: 80px;
+  color: white;
+}
+.contact ul li:nth-child(2) {
+  margin: 0 20px;
+}
+.contact ul li:hover {
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.08));
+}
+
+.project {
+  padding: 160px 0;
+  background-color: white;
+}
+.project h2 {
+  display: flex;
+  width: 746px;
+  font-size: 64px;
+  text-align: right;
+  margin-left: auto;
+  margin-bottom: 16px;
+}
+.project .detail {
+  margin-left: 24px;
+}
+.project .detail a {
+  width: 185px;
+  background-color: black;
+  color: white;
+  border-radius: 32px;
+  text-align: center;
+  padding: 12px;
+  display: block;
+}
+.project .detail span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.project .detail-box {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project .detail-item {
+  margin-bottom: 24px;
+}
+
+.footer {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=all.css.map */
