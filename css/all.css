@@ -87,9 +87,6 @@ a {
   text-decoration: none;
   color: black;
 }
-a:hover {
-  opacity: 0.7;
-}
 
 .container {
   width: 1320px;
@@ -164,11 +161,12 @@ a:hover {
 }
 .about .card {
   width: 50%;
+}
+.about .card ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   margin-top: 50px;
-  margin-right: 150px;
 }
 .about .card span {
   padding-bottom: 4px;
@@ -211,6 +209,15 @@ a:hover {
 }
 .contact ul li:hover {
   filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.08));
+}
+.contact img {
+  width: 162px;
+  height: 162px;
+}
+.contact li:hover {
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.08));
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+  border-radius: 40px;
 }
 
 .project {
